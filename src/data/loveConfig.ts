@@ -1,0 +1,163 @@
+export const loveConfig = {
+  hero: {
+    badge: "For My Bubu ❤️",
+    title: "From one conversation on 7 November 2024\nto a thousand little memories I never want to lose.",
+    button: "Come, let's relive us →",
+    subtitle: "Officially my Bubu. Permanently my Kuchchu Puchu. ❤️",
+  },
+
+  storyTimeline: {
+    title: "OUR STORY",
+    subtitle: "Every love story has a beginning. Ours started with a hello...",
+    events: [
+      {
+        date: "7 NOV 2024",
+        title: "The First Hello",
+        text: "Our story started with a conversation. I didn't know then that I was talking to the person who would become my Bubu.",
+        quote: "Little did I know that one conversation would become such a beautiful part of my life.",
+        emoji: "💬",
+        side: "left" as const,
+      },
+      {
+        date: "9 NOV 2024",
+        title: "The First Meeting",
+        text: "The day I finally met you. And somehow, one meeting wasn't enough.",
+        quote: "And somehow, that one meeting became the beginning of so many memories.",
+        emoji: "🥹",
+        side: "right" as const,
+      },
+      {
+        date: "EVER SINCE",
+        title: "The Places We've Been ❤️",
+        text: "So many places, so many little adventures. Every spot became special just because you were there.",
+        emoji: "🗺️",
+        side: "left" as const,
+      },
+      {
+        date: "ALWAYS",
+        title: "The Movies We've Watched 🎬",
+        text: "So many movies together. Some we watched, some we talked through, all of them special.",
+        emoji: "🎬",
+        side: "right" as const,
+      },
+      {
+        date: "EVERY DAY",
+        title: "The Food You've Fed Me 🥹",
+        text: "He feeds me, teases me, annoys me, loves me... and somehow still manages to be my favourite human.",
+        emoji: "🍽️",
+        side: "left" as const,
+      },
+      {
+        date: "FOREVER",
+        title: "The Teasing That Never Stops 🙄❤️",
+        text: "Yes, he teases me. Yes, I pretend to get annoyed. Yes, I secretly love every bit of it.",
+        emoji: "😏",
+        side: "right" as const,
+      },
+      {
+        date: "THE BEST PART",
+        title: "The Little Moments",
+        text: "Some memories aren't grand. Some are just a movie, some food, a random place, a silly joke, or him feeding me a bite. But those are the moments I want to remember forever.",
+        emoji: "✨",
+        side: "left" as const,
+      },
+    ],
+  },
+
+  bubuSection: {
+    title: "Things I Love About My Bubu",
+    subtitle: "He's not just my boyfriend. He's my Bubu. My Kuchchu Puchu. My favourite person.",
+    cards: [
+      { text: "Your teasing", emoji: "😒" },
+      { text: "How you take care of me", emoji: "🥺" },
+      { text: "The way you feed me", emoji: "🍽️" },
+      { text: "Our stupid little conversations", emoji: "💬" },
+      { text: "Our random movie plans", emoji: "🎬" },
+      { text: "All the places we've explored together", emoji: "🗺️" },
+      { text: "The tiny moments nobody else would understand", emoji: "🤫" },
+    ],
+    closing: "Basically... I love you. A lot. More than these little cards could ever explain. ❤️",
+    stickers: ["Bubu ❤️", "Kuchchu Puchu 🥺", "My Safe Place", "My Favourite Human"],
+  },
+
+  memories: {
+    title: "Little Moments, Big Memories ❤️",
+    subtitle: "Places we've been, movies we've watched, silly moments we've shared, and memories I never want to forget.",
+    photos: [
+      {
+        src: "https://res.cloudinary.com/ddxnrukju/image/upload/v1790933749/Snapchat-703639886.jpg",
+        caption: "Us being us ❤️",
+        rotate: -4,
+        label: "Bubu ❤️",
+      },
+      {
+        src: "https://res.cloudinary.com/ddxnrukju/image/upload/v1790933749/Snapchat-528137713.jpg",
+        caption: "My favourite memory",
+        rotate: 3,
+        label: "Kuchchu Puchu 🥺",
+      },
+      {
+        src: "https://res.cloudinary.com/ddxnrukju/image/upload/v1790933749/Snapchat-1515205467.jpg",
+        caption: "Look at these two idiots 😭",
+        rotate: -2,
+        label: "Bubu ❤️",
+      },
+      {
+        src: "https://res.cloudinary.com/ddxnrukju/image/upload/v1790933749/Snapchat-1196074364.jpg",
+        caption: "One of my favourite days",
+        rotate: 5,
+        label: "My safe place",
+      },
+      {
+        src: "https://res.cloudinary.com/ddxnrukju/image/upload/v1790933748/Snapchat-2069011131.jpg",
+        caption: "More memories loading...",
+        rotate: -5,
+        label: "Kuchchu Puchu 🥺",
+      },
+      {
+        src: "https://res.cloudinary.com/ddxnrukju/image/upload/v1790933748/Snapchat-960122805.jpg",
+        caption: "Forever isn't long enough",
+        rotate: 2,
+        label: "Bubu ❤️",
+      },
+      {
+        src: "https://res.cloudinary.com/ddxnrukju/image/upload/v1790933748/Snapchat-263656595.jpg",
+        caption: "Just another little moment",
+        rotate: -3,
+        label: "My favourite human",
+      },
+      {
+        src: "https://res.cloudinary.com/ddxnrukju/image/upload/v1790933748/Snapchat-433731475.jpg",
+        caption: "And another one 🥹",
+        rotate: 4,
+        label: "Bubu ❤️",
+      },
+      {
+        src: "https://res.cloudinary.com/ddxnrukju/image/upload/v1790933748/Snapchat-1464847305.jpg",
+        caption: "I never want to forget this",
+        rotate: -6,
+        label: "Kuchchu Puchu 🥺",
+      },
+    ],
+  },
+
+  finale: {
+    title: "THE ACTUAL REASON I MADE THIS ❤️",
+    paragraphs: [
+      "You came into my life as one conversation on 7 November 2024.",
+      "Then 9 November 2024 gave me the first memory of actually meeting you.",
+      "And after that came places, movies, food, teasing, laughter, silly moments, little fights, hugs, memories and countless moments that slowly became OUR story.",
+      "I don't know which memory is my favourite. Maybe it's not supposed to be one. Maybe it's the collection of all those tiny moments that makes you so special to me.",
+      "You're my Bubu. My Kuchchu Puchu. My favourite person to annoy. My favourite person to be annoyed by. My person for movies, food, random plans and all the little things.",
+      "And if I could go back to 7 November 2024... I'd still start that conversation. Because it gave me YOU.",
+    ],
+    closing: "Happy Boyfriend Day, Bubu. ❤️",
+    postscript: "I love you. More than you know. More than I say. And probably more than I can fit into this little website. 🥹❤️",
+    button: "Click if you love me too 👀❤️",
+    modalTitle: "I KNEW IT. 😭❤️",
+    modalBody: "Now come here and give me a hug, Bubu.",
+    modalClose: "close this (but i'm still hugging you) ❤️",
+    revealPre: "AND YES...",
+    reveal: "I'D STILL START THAT CONVERSATION. ❤️",
+  },
+};
